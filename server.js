@@ -12,6 +12,7 @@ const app = express();
 const uri = process.env.MONGO_URI 
 
 // Middleware
+// Middleware
 app.use(cors());
 app.use(express.json()); // Parse JSON requests
 
